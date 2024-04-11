@@ -1,19 +1,13 @@
-#include <algorithm>
-#include <queue>
+// "Including libraries"
 #include <string>
-#include <bitset>
-#include <set>
-#include <map>
-#include <deque>
 #include <iostream>
-#include <vector>
-#include <limits>
-
-using namespace std;
 
 int main() {
-std::cout << "What is your name? ";
-std::string name;
-std::cin >> name;
-std::cout << "Hello world from ";
-cout << name; }
+  // Asing name
+  std::cout << "What is your name? ";
+  std::string name;
+  std::cin >> name;
+
+  // Printing result
+  std::cout << "Hello world from " << name;
+}
