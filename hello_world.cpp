@@ -1,13 +1,10 @@
-// "Including libraries"
 #include <string>
 #include <iostream>
 
-int main() {
-  // Asing name
+int main(int argc, char *argv[]) {
   std::cout << "What is your name? ";
   std::string name;
   std::cin >> name;
 
-  // Printing result
   std::cout << "Hello world from " << name;
 }
