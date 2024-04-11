@@ -12,5 +12,8 @@
 using namespace std;
 
 int main() {
-std::cout << "Hello";
-cout << ", world!"; }
+std::cout << "What is your name? ";
+std::string name;
+std::cin >> name;
+std::cout << "Hello world from ";
+cout << name; }
